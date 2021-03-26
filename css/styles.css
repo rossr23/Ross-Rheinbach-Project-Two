@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Roboto", sans-serif,'New Tegomin', serif;
+  color: rgb(85, 85, 85);
+}
+
+Body{
+  margin:0px;
+}
+img {
+  max-width: 90%;
+}
+
+.header-text{
+  font-family:'new tegomin';
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 1rem;;
+  text-align: center;
+  font-weight: 200;
+}
+
+#extra{
+  background-color: rgba(138, 138, 138, 0.425);
+  font-family:'new tegomin';
+  color:rgb(253, 253, 253);
+  padding: 5px 25px 10px 25px;
+}
+
+li {
+  list-style: none;
+  width: 100%;
+} 
+
+.header-image{
+  padding: 5px 25px 10px 25px;
+}
+
+li.name{
+  font-size:1.2em;
+  letter-spacing:0.1em;
+  padding: 0px 5px 12px 5px;
+ }
+
+h1{
+  font-weight: bold;
+  font-size: 1.2rem; 
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(19, 19, 19);
+}
+
+a:hover {
+  color: blue;
+}
+
+.name{
+  font-size:1rem; 
+  padding: 20px 5px 20px 5px;
+
+}
+
+.RTT{
+  font-size:1rem; 
+  padding: 20px 5px 20px 5px;
+}
+.contact {
+  padding: 20px 5px 20px 5px;
+  background-color: darksalmon;
+  width: 100%;
+}
+
+.nav {
+  
+  width: 100%;
+  Padding: 20px 5px 20px 5px;
+  font-weight: bold;
+  background-color: darksalmon;
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  border-top: 2px solid rgb(100, 98, 98);
+  width: 100%;
+
+}
+
+
+.bottom-nav {
+  display: none;
+}
+
+
+/* MEDIA QUERY FOR TABLET */
+@media screen and (min-width:768px) {
+
+Header{
+Padding: 20px 5px 20px 5px;
+}
+.portfolio-header{
+text-align: center;
+Width: 100%;
+Padding: 60px 5px 30px 5px;
+}
+.portfolio {
+  Padding: 200px 5px 200px 5px;
+  }
+
+.project-item {
+  display: inline-block;
+  padding-bottom: 20px;
+  max-width: 45%;
+  line-height: 1.5rem;
+}
+
+ .bottom-nav {
+   display: flex;
+   margin: 5px 5px 5px 5px;
+ }
+
+ .RTT {
+   display: none;
+ }
+
+ .nav a {
+  display: inline-block;
+  font-weight: bold;
+  padding: 5px;
+ }
+
+.header-image {
+    float: right;
+    margin-right: 15px;
+}
+}
+
+
+
+/* MEDIA QUERY FOR DESKTOP */
+
+@media screen and  (min-width: 1024px) {
+        
+  .main-container  {
+    display: flex;
+    justify-content: space-between ;
+    
+  }
+
+  Header{
+    Padding: 30px 5px 20px 5px;
+    }
+
+
+    .portfolio-header{
+    text-align: center;
+    Width: 100%;
+    Padding: 150px 5px 30px 5px;
+    }
+
+ .project-item {
+   width: 32%;
+ }
+
+ .header-image{
+  padding: 15px 50px 10px 50px;
+  min-width: 50vw;
+ }
+
+ .header-text{
+  padding: 5px 25px 10px 25px;
+  min-width: 50vw;
+ }
+
+.nav {
+  display: inline-flex;
+ }
+}
