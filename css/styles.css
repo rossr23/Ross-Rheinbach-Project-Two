@@ -135,8 +135,12 @@ Padding: 60px 5px 30px 5px;
    display: none;
  }
 
+ .nav {
+  display: inline-flex;
+ }
+
  .nav a {
-  display: inline-block;
+  display: inline-flex;
   font-weight: bold;
   padding: 5px;
  }
