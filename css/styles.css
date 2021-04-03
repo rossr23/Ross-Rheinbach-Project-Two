@@ -5,7 +5,7 @@
   color: rgb(85, 85, 85);
 }
 
-Body{
+body{
   margin:0px;
 }
 img {
@@ -73,6 +73,7 @@ a:hover {
 .RTT{
   font-size:1rem; 
   padding: 20px 5px 20px 5px;
+  background-color: darksalmon;
 }
 .contact {
   padding: 20px 5px 20px 5px;
@@ -80,12 +81,31 @@ a:hover {
   width: 100%;
 }
 
-.nav {
-  
+.nav{
+  display:inline-block;
+}
+
+ul{
+  padding:0px 0px 0px 0px;
+}
+
+nav {
+  display: inline-block;
   width: 100%;
   Padding: 20px 5px 20px 5px;
   font-weight: bold;
   background-color: darksalmon;
+  margin: 0px 0px 0px 0px;
+}
+
+.name{
+  background-color: darksalmon;
+  margin: 0px 0px 0px 0px;
+
+}
+
+h6{
+  font-size: large;
 }
 
 
@@ -94,6 +114,7 @@ footer {
   justify-content: space-between;
   font-weight: 600;
   border-top: 2px solid rgb(100, 98, 98);
+  background-color: darksalmon;
   width: 100%;
 
 }
@@ -107,7 +128,7 @@ footer {
 /* MEDIA QUERY FOR TABLET */
 @media screen and (min-width:768px) {
 
-Header{
+.header{
 Padding: 20px 5px 20px 5px;
 }
 .portfolio-header{
@@ -129,21 +150,32 @@ Padding: 60px 5px 30px 5px;
  .bottom-nav {
    display: flex;
    margin: 5px 5px 5px 5px;
+   padding: 10px 5px 5px 5px;
  }
+
+.bottom-nav a{
+ margin:5px 20px 5px 5px;
+}
 
  .RTT {
    display: none;
  }
 
- .nav {
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav {
   display: inline-flex;
- }
-
- .nav a {
-  display: inline-flex;
-  font-weight: bold;
-  padding: 5px;
- }
+  justify-content: flex-end;
+  width: 40%;
+}
+.name {
+  width: 40%;
+  justify-self: flex-start;
+}
 
 .header-image {
     float: right;
@@ -188,7 +220,21 @@ Padding: 60px 5px 30px 5px;
   min-width: 50vw;
  }
 
+
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .nav {
   display: inline-flex;
- }
+  justify-content: flex-end;
+  width: 40%;
+}
+.name {
+  width: 40%;
+  justify-self: flex-start;
+}
+
 }
