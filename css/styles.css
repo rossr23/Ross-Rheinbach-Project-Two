@@ -36,6 +36,10 @@ li {
 } 
 
 .header-image{
+  padding: 20px 25px 10px 25px;
+}
+
+.header-text{
   padding: 5px 25px 10px 25px;
 }
 
@@ -98,14 +102,23 @@ nav {
   margin: 0px 0px 0px 0px;
 }
 
+.nav li{
+  width:80vw;
+  text-align: center;
+  margin: 5px 15px 5px 15px;
+  padding: 5px 5px 5px 5px;
+  background-color: rgb(170, 167, 167);
+}
+
 .name{
   background-color: darksalmon;
   margin: 0px 0px 0px 0px;
+  font-size: 1.4rem;
 
 }
 
 h6{
-  font-size: large;
+  font-size: 3rem;
 }
 
 
@@ -124,11 +137,17 @@ footer {
   display: none;
 }
 
+.bottom-name{
+  display:inline-block;
+  font-size: 1.2rem;
+  margin: 15px 15px 5px 15px;
+}
+
 
 /* MEDIA QUERY FOR TABLET */
 @media screen and (min-width:768px) {
 
-.header{
+header{
 Padding: 20px 5px 20px 5px;
 }
 .portfolio-header{
@@ -153,6 +172,10 @@ Padding: 60px 5px 30px 5px;
    padding: 10px 5px 5px 5px;
  }
 
+ .nav li{
+   background-color: darksalmon;
+ }
+
 .bottom-nav a{
  margin:5px 20px 5px 5px;
 }
@@ -161,26 +184,29 @@ Padding: 60px 5px 30px 5px;
    display: none;
  }
 
-nav {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
 .nav {
   display: inline-flex;
   justify-content: flex-end;
-  width: 40%;
+  width: 60%;
+  margin: 0px 0px 0px 0px;
 }
 .name {
-  width: 40%;
-  justify-self: flex-start;
+  width: 100%;
+  font-size: 1.4rem;
+  align-self:center;
+  justify-self: center;
 }
 
 .header-image {
     float: right;
     margin-right: 15px;
 }
+.bottom-name{
+  display:inline-block;
+  font-size: 1.2rem;
+  margin: 15px 15px 5px 15px;
+}
+
 }
 
 
@@ -234,6 +260,7 @@ nav {
 }
 .name {
   width: 40%;
+  padding: 5px 5px 5px 5px;
   justify-self: flex-start;
 }
 
